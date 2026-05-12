@@ -333,13 +333,13 @@ class BatterySaver(rumps.App):
             self.update_icon()
         except Exception as e:
             rumps.alert(title="Error", message=f"Failed: {e}")
-
-    @rumps.clicked("About")
-    def show_about(self, _) -> None:
-        rumps.alert(
-            title="Battery Optimizer",
-            message=f"Automatic Power Manager\n\nVersion: 1.0.2\nBuilt upon Battery Toolkit (github.com/actuallymentor/battery)\n\n© 2025 Daniel Alan Bates"
-        )
+@rumps.clicked("About")
+def show_about(self, _) -> None:
+    """Show about information."""
+    rumps.alert(
+        title="BatesAI Battery Optimizer",
+        message=f"Automatic Power Manager\n\nVersion: 1.0.3\nBuilt upon Battery Toolkit (github.com/actuallymentor/battery)\n\n© 2025 Daniel Alan Bates"
+    )
 
     @rumps.clicked("Quit")
     def quit_app(self, _) -> None:
