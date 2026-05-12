@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <!-- Clean, Transparent Battery Icon for Menu Bar -->
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="0" y2="1024">
+      <stop offset="0" stop-color="#f8d95b"/>
+      <stop offset="1" stop-color="#f49b2e"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outline -->
+  <rect x="150" y="300" width="600" height="424" rx="80" fill="none" stroke="black" stroke-width="60"/>
+  <rect x="750" y="432" width="100" height="160" rx="40" fill="black"/>
+  
+  <!-- Fill (indicates optimization/charging) -->
+  <rect x="230" y="380" width="140" height="264" rx="20" fill="black"/>
+  <rect x="400" y="380" width="140" height="264" rx="20" fill="black"/>
+  <rect x="570" y="380" width="140" height="264" rx="20" fill="black"/>
+</svg>
